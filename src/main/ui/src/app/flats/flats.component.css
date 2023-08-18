@@ -1,0 +1,52 @@
+.container{
+  display: flex;
+  width: 400px;
+  margin-left: 0px;
+  justify-content: space-between;
+}
+
+.inform-container{
+  position: relative;
+  left: 800px;
+  bottom: 1000px;
+}
+
+.mat-card{
+  background: linear-gradient(to bottom, #ede2d3, #cea262);
+  width: 800px;
+
+  font-family: Bahnschrift;
+  font-size: 20px;
+}
+
+table {
+  width: 600px;
+  border: 1px solid #543d22;
+}
+th {
+  width: 300px;
+  border: 1px solid #543d22;
+  font-size: 20px;
+  font-family: Bahnschrift;
+  color: #000060;
+
+
+}
+
+td {
+  font-size: 16px;
+  font-family: Bahnschrift;
+  color: #000060;
+  border: 1px solid #543d22;
+}
+
+
+mat-card-header {
+  font-family: Bahnschrift;
+  font-size: 20px;
+  color: #000060;
+}
+
+.name{
+  font-size: 25px;
+}
