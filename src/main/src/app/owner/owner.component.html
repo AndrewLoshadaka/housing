@@ -1,0 +1,11 @@
+<mat-card>
+  <mat-card class="mat-card" (click)="sendSelectedFlatId(owner.id)">
+    <mat-card-header>Данные владельца</mat-card-header>
+    <mat-card-content>
+      <mat-card-subtitle>ФИО владельца: {{owner.surname}} {{owner.name}} {{owner.patronymics}}</mat-card-subtitle>
+      <mat-card-subtitle>Дата рождения: {{owner.dateOfBirth}}</mat-card-subtitle>
+      <mat-card-subtitle>Данные паспорта: {{owner.passport}}</mat-card-subtitle>
+    </mat-card-content>
+
+  </mat-card>
+</mat-card>
